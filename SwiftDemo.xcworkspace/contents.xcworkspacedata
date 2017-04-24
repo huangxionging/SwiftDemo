@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BlockClosures/BlockClosures.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SwiftBasicDataTypeDemo/SwiftBasicDataTypeDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StatementFlow/StatementFlow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ClassObject/ClassObject.xcodeproj">
+   </FileRef>
+</Workspace>
