@@ -14,8 +14,12 @@ class EquilateralTriangle:Shape {
     var sideLength: Double = 0
     // 初始化方法
     init(sideLength: Double, name: String) {
+        // 初始化的三个步骤
+        // 1 为属性值赋值
         self.sideLength = sideLength
+        // 2 调用父类初始化函数初始化父类成员
         super.init(name: name)
+        // 3 修改父类定义的其他属性, 调用其他的配置工作, 方法, getter, setter
         numberOfSides = 3
     }
     

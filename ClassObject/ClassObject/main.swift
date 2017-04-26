@@ -29,3 +29,15 @@ equilateralTriangle.perimeter = 9.9
 print(equilateralTriangle.perimeter)
 
 
+var triangleAndSquare = TriangleAndSquare(size: 19, name: "triangleAndSquare")
+print(triangleAndSquare.square.sideOfLength)
+print(triangleAndSquare.triangle.sideLength)
+
+triangleAndSquare.square = Square(sideOfLength: 16.0, name: "square")
+print(triangleAndSquare.triangle.sideLength)
+
+
+
+
+
+

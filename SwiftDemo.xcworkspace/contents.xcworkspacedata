@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:EnumerationAndStructure/EnumerationAndStructure.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BlockClosures/BlockClosures.xcodeproj">
    </FileRef>
    <FileRef
