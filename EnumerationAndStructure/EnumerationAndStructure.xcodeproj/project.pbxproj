@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F28A276E1EB88E71009E7E90 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28A276D1EB88E71009E7E90 /* Person.m */; };
 		F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC201EB0E5FF00521E60 /* main.swift */; };
 		F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC271EB0E60D00521E60 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnumerationAndStructure-Bridging-Header.h"; sourceTree = "<group>"; };
+		F28A276C1EB88E71009E7E90 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F28A276D1EB88E71009E7E90 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F2F8FC1D1EB0E5FF00521E60 /* EnumerationAndStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnumerationAndStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8FC201EB0E5FF00521E60 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F2F8FC271EB0E60D00521E60 /* Enumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
@@ -61,6 +65,9 @@
 			children = (
 				F2F8FC201EB0E5FF00521E60 /* main.swift */,
 				F2F8FC271EB0E60D00521E60 /* Enumeration.swift */,
+				F28A276C1EB88E71009E7E90 /* Person.h */,
+				F28A276D1EB88E71009E7E90 /* Person.m */,
+				F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */,
 			);
 			path = EnumerationAndStructure;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 					F2F8FC1C1EB0E5FF00521E60 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6EW99E5PRN;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28A276E1EB88E71009E7E90 /* Person.m in Sources */,
 				F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */,
 				F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */,
 			);
@@ -225,8 +234,12 @@
 		F2F8FC251EB0E5FF00521E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnumerationAndStructure/EnumerationAndStructure-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -234,8 +247,11 @@
 		F2F8FC261EB0E5FF00521E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnumerationAndStructure/EnumerationAndStructure-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -259,6 +275,7 @@
 				F2F8FC261EB0E5FF00521E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,3 +20,7 @@ print(Rank.eight.simpleDescription())
 let jack = Rank.jack, queen = Rank.queen
 
 print(jack.compare(rank: queen).rawValue)
+
+var person = Person()
+person.changeName("问问问问")
+print(person.name)
