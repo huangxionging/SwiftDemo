@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 /// 打印结果
 ///
 /// - Parameter item: 打印项目
@@ -28,8 +29,10 @@ swiftPrint(intValue)
 
 
 ///浮点数
-var floatValue = Float(intValue)
-swiftPrint(floatValue)
+var floatValue = Double(intValue)
+floatValue = 1.245e7
+floatValue = 0xFp2
+swiftPrint(floatValue )
 
 /// 双精度读浮点数
 let  doubleValue = Double(floatValue)

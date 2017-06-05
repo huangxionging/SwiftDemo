@@ -12,6 +12,8 @@
 		F2708E311EC3FB9100DBB8CA /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708E301EC3FB9100DBB8CA /* SimpleClass.swift */; };
 		F2708E331EC3FD6D00DBB8CA /* SimpleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708E321EC3FD6D00DBB8CA /* SimpleStruct.swift */; };
 		F2708E351EC4048900DBB8CA /* SimpleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708E341EC4048900DBB8CA /* SimpleEnum.swift */; };
+		F282A6F81EC94575005799D3 /* SimpleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F282A6F71EC94575005799D3 /* SimpleExtension.swift */; };
+		F2A846DE1EC9508300FCDC27 /* PrintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A846DD1EC9508300FCDC27 /* PrintError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		F2708E301EC3FB9100DBB8CA /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
 		F2708E321EC3FD6D00DBB8CA /* SimpleStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStruct.swift; sourceTree = "<group>"; };
 		F2708E341EC4048900DBB8CA /* SimpleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleEnum.swift; sourceTree = "<group>"; };
+		F282A6F71EC94575005799D3 /* SimpleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleExtension.swift; sourceTree = "<group>"; };
+		F2A846DD1EC9508300FCDC27 /* PrintError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				F2708E301EC3FB9100DBB8CA /* SimpleClass.swift */,
 				F2708E321EC3FD6D00DBB8CA /* SimpleStruct.swift */,
 				F2708E341EC4048900DBB8CA /* SimpleEnum.swift */,
+				F282A6F71EC94575005799D3 /* SimpleExtension.swift */,
+				F2A846DD1EC9508300FCDC27 /* PrintError.swift */,
 			);
 			path = ProtocolsAndExtensions;
 			sourceTree = "<group>";
@@ -133,11 +139,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A846DE1EC9508300FCDC27 /* PrintError.swift in Sources */,
 				F2708E331EC3FD6D00DBB8CA /* SimpleStruct.swift in Sources */,
 				F2708E351EC4048900DBB8CA /* SimpleEnum.swift in Sources */,
 				F2708E311EC3FB9100DBB8CA /* SimpleClass.swift in Sources */,
 				F2708E281EC3FA2600DBB8CA /* main.swift in Sources */,
 				F2708E2F1EC3FA4B00DBB8CA /* Protocol.swift in Sources */,
+				F282A6F81EC94575005799D3 /* SimpleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +279,7 @@
 				F2708E2D1EC3FA2600DBB8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

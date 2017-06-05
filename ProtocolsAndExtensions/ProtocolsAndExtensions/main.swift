@@ -29,6 +29,24 @@ enumeration.simpleDescription = "bbdkdksk"
 enumeration.adjust()
 print(enumeration.simpleDescription)
 
+var number = 8
+number.adjust()
+print(number.simpleDescription)
+
+print((-9.004489900).absoluteValue)
+
+do {
+    let printerResponse = try send(job: 1040, toPrinter: "Bi Sheng")
+    print(printerResponse)
+} catch {
+    print(error)
+}
 
 
+do {
+    let printerResponse = try send(job: 1040, toPrinter: "Never Has Toner")
+    print(printerResponse)
+} catch {
+    print(error)
+}
 
