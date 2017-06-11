@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		F28A276E1EB88E71009E7E90 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28A276D1EB88E71009E7E90 /* Person.m */; };
+=======
+		F297CACC1EBF5FF9000A3DEF /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297CACB1EBF5FF9000A3DEF /* Structure.swift */; };
+>>>>>>> Stashed changes
 		F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC201EB0E5FF00521E60 /* main.swift */; };
 		F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC271EB0E60D00521E60 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
@@ -25,9 +29,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnumerationAndStructure-Bridging-Header.h"; sourceTree = "<group>"; };
 		F28A276C1EB88E71009E7E90 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F28A276D1EB88E71009E7E90 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+=======
+		F297CACB1EBF5FF9000A3DEF /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		F2F8FC1D1EB0E5FF00521E60 /* EnumerationAndStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnumerationAndStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8FC201EB0E5FF00521E60 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F2F8FC271EB0E60D00521E60 /* Enumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
@@ -65,9 +73,13 @@
 			children = (
 				F2F8FC201EB0E5FF00521E60 /* main.swift */,
 				F2F8FC271EB0E60D00521E60 /* Enumeration.swift */,
+<<<<<<< Updated upstream
 				F28A276C1EB88E71009E7E90 /* Person.h */,
 				F28A276D1EB88E71009E7E90 /* Person.m */,
 				F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */,
+=======
+				F297CACB1EBF5FF9000A3DEF /* Structure.swift */,
+>>>>>>> Stashed changes
 			);
 			path = EnumerationAndStructure;
 			sourceTree = "<group>";
@@ -135,6 +147,7 @@
 				F28A276E1EB88E71009E7E90 /* Person.m in Sources */,
 				F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */,
 				F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */,
+				F297CACC1EBF5FF9000A3DEF /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

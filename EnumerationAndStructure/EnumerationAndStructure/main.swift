@@ -21,6 +21,13 @@ let jack = Rank.jack, queen = Rank.queen
 
 print(jack.compare(rank: queen).rawValue)
 
+<<<<<<< Updated upstream
 var person = Person()
 person.changeName("问问问问")
 print(person.name)
+=======
+let hearts = Suit.hearts
+
+let heartDescription = hearts.simpleDescription()
+
+>>>>>>> Stashed changes

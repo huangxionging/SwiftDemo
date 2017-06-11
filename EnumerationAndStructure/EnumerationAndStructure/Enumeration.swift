@@ -38,3 +38,29 @@ enum Rank:Int {
         }
     }
 }
+
+enum Suit {
+    case spades, hearts, diamonds, clubs
+    
+    func simpleDescription() -> String {
+        switch self {
+        case .spades:
+            return "spades"
+        case .hearts:
+            return "hearts"
+        case .diamonds:
+            return "diamonds"
+        case .clubs:
+            return "clubs"
+        }
+    }
+    
+    func color() -> String {
+        switch self {
+        case .spades, .clubs:
+            return "black"
+        case .hearts, .diamonds:
+            return "red"
+        }
+    }
+}
