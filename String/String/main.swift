@@ -22,6 +22,7 @@ let com = decomposed.compare(str)
 if (com == ComparisonResult.orderedSame) {
     print("yes")
 }
+
 print(str, com, decomposed)
 
 //for index in 1..<10000 {
@@ -34,3 +35,34 @@ print(word, word.characters.count)
 
 word += "\u{301}"
 print(word, word.characters.count)
+
+print(word[word.startIndex])
+
+print(word[word.index(before:word.endIndex)])
+
+print(word[word.index(word.startIndex, offsetBy: 1, limitedBy: word.endIndex)!])
+
+for index in word.characters.indices {
+    
+    print("\(word[index]) ", terminator: "")
+}
+
+// 插入
+word.insert(contentsOf: " StarBucks ".characters, at: word.startIndex)
+// 插入
+word.insert("s", at:  word.endIndex)
+
+print(word)
+
+// 删除
+word.remove(at: word.index(before: word.endIndex))
+print(word)
+
+let range = word.index(word.endIndex, offsetBy: -6)..<word.endIndex
+
+word.removeSubrange(range)
+
+print(word)
+
+//🐶
+
