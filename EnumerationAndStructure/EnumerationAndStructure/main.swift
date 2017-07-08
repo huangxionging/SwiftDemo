@@ -24,3 +24,13 @@ print(jack.compare(rank: queen).rawValue)
 var person = Person()
 person.changeName("问问问问")
 print(person.name)
+
+let five = Expression.number(5)
+let four = Expression.number(4)
+let three = Expression.number(3)
+
+let sum = Expression.addtion(five, four)
+
+let product = Expression.multiple(sum, three)
+
+print(evaluateExpression(product))
