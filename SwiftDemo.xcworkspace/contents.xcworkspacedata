@@ -2,7 +2,14 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "group:ControlFlow/ControlFlow.xcodeproj">
+=======
+      location = "group:Closure/Closure.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:String/String.xcodeproj">
+>>>>>>> origin/master
    </FileRef>
    <FileRef
       location = "group:Operator/Operator.xcodeproj">
