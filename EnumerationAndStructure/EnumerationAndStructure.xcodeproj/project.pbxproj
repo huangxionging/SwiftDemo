@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		F232A32C1F3022ED0071C557 /* TSRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232A32B1F3022ED0071C557 /* TSRect.swift */; };
 		F232A32E1F3023240071C557 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232A32D1F3023240071C557 /* Point.swift */; };
 		F232A3301F3024690071C557 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232A32F1F3024690071C557 /* Size.swift */; };
@@ -16,6 +17,17 @@
 		F28A276E1EB88E71009E7E90 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28A276D1EB88E71009E7E90 /* Person.m */; };
 		F2BB03EC1F3811C3000CB3BB /* Cuboid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB03EB1F3811C3000CB3BB /* Cuboid.swift */; };
 		F2BB03EE1F38674E000CB3BB /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB03ED1F38674E000CB3BB /* StepCounter.swift */; };
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+		F2448F8D1F0F99A600CA351D /* IndirectEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2448F8C1F0F99A600CA351D /* IndirectEnumeration.swift */; };
+>>>>>>> origin/master
+		F28A276E1EB88E71009E7E90 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28A276D1EB88E71009E7E90 /* Person.m */; };
+=======
+		F297CACC1EBF5FF9000A3DEF /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297CACB1EBF5FF9000A3DEF /* Structure.swift */; };
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 		F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC201EB0E5FF00521E60 /* main.swift */; };
 		F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8FC271EB0E60D00521E60 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		F232A32B1F3022ED0071C557 /* TSRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRect.swift; sourceTree = "<group>"; };
 		F232A32D1F3023240071C557 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		F232A32F1F3024690071C557 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
@@ -44,6 +57,19 @@
 		F28A276D1EB88E71009E7E90 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F2BB03EB1F3811C3000CB3BB /* Cuboid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuboid.swift; sourceTree = "<group>"; };
 		F2BB03ED1F38674E000CB3BB /* StepCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+		F2448F8C1F0F99A600CA351D /* IndirectEnumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndirectEnumeration.swift; sourceTree = "<group>"; };
+>>>>>>> origin/master
+		F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnumerationAndStructure-Bridging-Header.h"; sourceTree = "<group>"; };
+		F28A276C1EB88E71009E7E90 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F28A276D1EB88E71009E7E90 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+=======
+		F297CACB1EBF5FF9000A3DEF /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 		F2F8FC1D1EB0E5FF00521E60 /* EnumerationAndStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnumerationAndStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8FC201EB0E5FF00521E60 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F2F8FC271EB0E60D00521E60 /* Enumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
@@ -81,10 +107,17 @@
 			children = (
 				F2F8FC201EB0E5FF00521E60 /* main.swift */,
 				F2F8FC271EB0E60D00521E60 /* Enumeration.swift */,
+<<<<<<< Updated upstream
 				F28A276C1EB88E71009E7E90 /* Person.h */,
 				F28A276D1EB88E71009E7E90 /* Person.m */,
 				F28A276B1EB88E71009E7E90 /* EnumerationAndStructure-Bridging-Header.h */,
+<<<<<<< HEAD
+=======
+				F297CACB1EBF5FF9000A3DEF /* Structure.swift */,
+>>>>>>> Stashed changes
+=======
 				F2448F8C1F0F99A600CA351D /* IndirectEnumeration.swift */,
+<<<<<<< HEAD
 				F232A32B1F3022ED0071C557 /* TSRect.swift */,
 				F232A32D1F3023240071C557 /* Point.swift */,
 				F232A32F1F3024690071C557 /* Size.swift */,
@@ -92,6 +125,9 @@
 				F2BB03ED1F38674E000CB3BB /* StepCounter.swift */,
 				F24D81211F39988400580414 /* TypeProperty.swift */,
 				F24D81231F39C49E00580414 /* AudioChanel.swift */,
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 			);
 			path = EnumerationAndStructure;
 			sourceTree = "<group>";
@@ -166,7 +202,11 @@
 				F2BB03EC1F3811C3000CB3BB /* Cuboid.swift in Sources */,
 				F2F8FC211EB0E5FF00521E60 /* main.swift in Sources */,
 				F2F8FC281EB0E60D00521E60 /* Enumeration.swift in Sources */,
+<<<<<<< HEAD
 				F2BB03EE1F38674E000CB3BB /* StepCounter.swift in Sources */,
+=======
+				F297CACC1EBF5FF9000A3DEF /* Structure.swift in Sources */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
