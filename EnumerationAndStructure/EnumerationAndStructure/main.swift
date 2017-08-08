@@ -21,18 +21,16 @@ let jack = Rank.jack, queen = Rank.queen
 
 print(jack.compare(rank: queen).rawValue)
 
-<<<<<<< Updated upstream
+
 var person = Person()
 person.changeName("问问问问")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 print(person.name)
-<<<<<<< HEAD
-=======
+
 let hearts = Suit.hearts
 
 let heartDescription = hearts.simpleDescription()
 
->>>>>>> Stashed changes
-=======
+
 
 let five = Expression.number(5)
 let four = Expression.number(4)
@@ -43,7 +41,7 @@ let sum = Expression.addtion(five, four)
 let product = Expression.multiple(sum, three)
 
 print(evaluateExpression(product))
-<<<<<<< HEAD
+
 
 var square = TSRect(oringn: Point(x: 1.0, y: 1.0) , size: Size(width: 10.0, height: 10.0))
 
@@ -67,6 +65,4 @@ print(SomeEnumeration.storedProperty)
 print(SomeEnumeration.computeProperty)
 
 print(SomeClasss.computeProperty)
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+
