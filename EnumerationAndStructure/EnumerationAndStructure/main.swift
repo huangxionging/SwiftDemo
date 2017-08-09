@@ -66,3 +66,25 @@ print(SomeEnumeration.computeProperty)
 
 print(SomeClasss.computeProperty)
 
+
+/// 左声道
+var leftChanel = AudioChanel()
+
+/// 右声道
+var rightChanel = AudioChanel()
+
+leftChanel.currentLevel = 7
+
+print(leftChanel.currentLevel)
+
+print(AudioChanel.maxInputLevelForAllChanel)
+
+rightChanel.currentLevel = 10
+print(AudioChanel.maxInputLevelForAllChanel)
+print(rightChanel.currentLevel)
+
+
+
+
+
+
