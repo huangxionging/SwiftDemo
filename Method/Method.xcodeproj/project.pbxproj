@@ -11,6 +11,7 @@
 		F29964F31F3ABE4300E41E53 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964F21F3ABE4300E41E53 /* Counter.swift */; };
 		F29964F51F3AFDD400E41E53 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964F41F3AFDD400E41E53 /* Point.swift */; };
 		F29964F71F3B1EB200E41E53 /* TriStateSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964F61F3B1EB200E41E53 /* TriStateSwitch.swift */; };
+		F2CAF3701F3C0F0C00AA3EE1 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CAF36F1F3C0F0C00AA3EE1 /* SomeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		F29964F21F3ABE4300E41E53 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		F29964F41F3AFDD400E41E53 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		F29964F61F3B1EB200E41E53 /* TriStateSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriStateSwitch.swift; sourceTree = "<group>"; };
+		F2CAF36F1F3C0F0C00AA3EE1 /* SomeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F29964F21F3ABE4300E41E53 /* Counter.swift */,
 				F29964F41F3AFDD400E41E53 /* Point.swift */,
 				F29964F61F3B1EB200E41E53 /* TriStateSwitch.swift */,
+				F2CAF36F1F3C0F0C00AA3EE1 /* SomeClass.swift */,
 			);
 			path = Method;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			files = (
 				F29964F31F3ABE4300E41E53 /* Counter.swift in Sources */,
 				F29964F71F3B1EB200E41E53 /* TriStateSwitch.swift in Sources */,
+				F2CAF3701F3C0F0C00AA3EE1 /* SomeClass.swift in Sources */,
 				F29964EC1F3ABD6D00E41E53 /* main.swift in Sources */,
 				F29964F51F3AFDD400E41E53 /* Point.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				F29964F11F3ABD6D00E41E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

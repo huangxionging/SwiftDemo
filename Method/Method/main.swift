@@ -41,3 +41,5 @@ for index in 0...100 {
     triStateSwitch.next()
     print(triStateSwitch)
 }
+
+SomeClass.typeMethod()
