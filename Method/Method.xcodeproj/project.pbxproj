@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F27F87271F3D55B0002534E5 /* LevelTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F87261F3D55B0002534E5 /* LevelTracker.swift */; };
+		F27F87291F3DAA21002534E5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F87281F3DAA21002534E5 /* Player.swift */; };
 		F29964EC1F3ABD6D00E41E53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964EB1F3ABD6D00E41E53 /* main.swift */; };
 		F29964F31F3ABE4300E41E53 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964F21F3ABE4300E41E53 /* Counter.swift */; };
 		F29964F51F3AFDD400E41E53 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29964F41F3AFDD400E41E53 /* Point.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F27F87261F3D55B0002534E5 /* LevelTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTracker.swift; sourceTree = "<group>"; };
+		F27F87281F3DAA21002534E5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		F29964E81F3ABD6D00E41E53 /* Method */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Method; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29964EB1F3ABD6D00E41E53 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F29964F21F3ABE4300E41E53 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				F29964F41F3AFDD400E41E53 /* Point.swift */,
 				F29964F61F3B1EB200E41E53 /* TriStateSwitch.swift */,
 				F2CAF36F1F3C0F0C00AA3EE1 /* SomeClass.swift */,
+				F27F87261F3D55B0002534E5 /* LevelTracker.swift */,
+				F27F87281F3DAA21002534E5 /* Player.swift */,
 			);
 			path = Method;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 				F29964F31F3ABE4300E41E53 /* Counter.swift in Sources */,
 				F29964F71F3B1EB200E41E53 /* TriStateSwitch.swift in Sources */,
 				F2CAF3701F3C0F0C00AA3EE1 /* SomeClass.swift in Sources */,
+				F27F87271F3D55B0002534E5 /* LevelTracker.swift in Sources */,
+				F27F87291F3DAA21002534E5 /* Player.swift in Sources */,
 				F29964EC1F3ABD6D00E41E53 /* main.swift in Sources */,
 				F29964F51F3AFDD400E41E53 /* Point.swift in Sources */,
 			);
