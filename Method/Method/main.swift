@@ -43,3 +43,8 @@ for index in 0...100 {
 }
 
 SomeClass.typeMethod()
+
+var player = Player(name: "Argyrios")
+player.complete(level: 1)
+print("highest unlocked level is now \(LevelTracker.highestUnlockedLevel)")
+
