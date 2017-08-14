@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Subscripts/Subscripts.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Method/Method.xcodeproj">
    </FileRef>
    <FileRef

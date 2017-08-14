@@ -48,3 +48,10 @@ var player = Player(name: "Argyrios")
 player.complete(level: 1)
 print("highest unlocked level is now \(LevelTracker.highestUnlockedLevel)")
 
+player = Player(name: "Beto")
+
+if player.tracker.advance(to: 6) {
+    print("player is now on level 6")
+} else {
+    print("level 6 has not yet been unlocked")
+}
