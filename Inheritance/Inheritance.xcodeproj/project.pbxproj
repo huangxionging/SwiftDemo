@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F22B28FA1F413F0600DDBEC7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B28F91F413F0600DDBEC7 /* main.swift */; };
-		F24CD3B11F42C6ED008D65A6 /* TimesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24CD3B01F42C6ED008D65A6 /* TimesTable.swift */; };
-		F2828CE81F43E53100E1C0B7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2828CE71F43E53100E1C0B7 /* Matrix.swift */; };
+		F2828CF61F43F98C00E1C0B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2828CF51F43F98C00E1C0B7 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F22B28F41F413F0600DDBEC7 /* CopyFiles */ = {
+		F2828CF01F43F98C00E1C0B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F22B28F61F413F0600DDBEC7 /* Subscripts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Subscripts; sourceTree = BUILT_PRODUCTS_DIR; };
-		F22B28F91F413F0600DDBEC7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F24CD3B01F42C6ED008D65A6 /* TimesTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesTable.swift; sourceTree = "<group>"; };
-		F2828CE71F43E53100E1C0B7 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		F2828CF21F43F98C00E1C0B7 /* Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2828CF51F43F98C00E1C0B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F22B28F31F413F0600DDBEC7 /* Frameworks */ = {
+		F2828CEF1F43F98C00E1C0B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,101 +38,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F22B28ED1F413F0600DDBEC7 = {
+		F2828CE91F43F98C00E1C0B7 = {
 			isa = PBXGroup;
 			children = (
-				F22B28F81F413F0600DDBEC7 /* Subscripts */,
-				F22B28F71F413F0600DDBEC7 /* Products */,
+				F2828CF41F43F98C00E1C0B7 /* Inheritance */,
+				F2828CF31F43F98C00E1C0B7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F22B28F71F413F0600DDBEC7 /* Products */ = {
+		F2828CF31F43F98C00E1C0B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F22B28F61F413F0600DDBEC7 /* Subscripts */,
+				F2828CF21F43F98C00E1C0B7 /* Inheritance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F22B28F81F413F0600DDBEC7 /* Subscripts */ = {
+		F2828CF41F43F98C00E1C0B7 /* Inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				F22B28F91F413F0600DDBEC7 /* main.swift */,
-				F2828CE71F43E53100E1C0B7 /* Matrix.swift */,
-				F24CD3B01F42C6ED008D65A6 /* TimesTable.swift */,
+				F2828CF51F43F98C00E1C0B7 /* main.swift */,
 			);
-			path = Subscripts;
+			path = Inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F22B28F51F413F0600DDBEC7 /* Subscripts */ = {
+		F2828CF11F43F98C00E1C0B7 /* Inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F22B28FD1F413F0600DDBEC7 /* Build configuration list for PBXNativeTarget "Subscripts" */;
+			buildConfigurationList = F2828CF91F43F98C00E1C0B7 /* Build configuration list for PBXNativeTarget "Inheritance" */;
 			buildPhases = (
-				F22B28F21F413F0600DDBEC7 /* Sources */,
-				F22B28F31F413F0600DDBEC7 /* Frameworks */,
-				F22B28F41F413F0600DDBEC7 /* CopyFiles */,
+				F2828CEE1F43F98C00E1C0B7 /* Sources */,
+				F2828CEF1F43F98C00E1C0B7 /* Frameworks */,
+				F2828CF01F43F98C00E1C0B7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Subscripts;
-			productName = Subscripts;
-			productReference = F22B28F61F413F0600DDBEC7 /* Subscripts */;
+			name = Inheritance;
+			productName = Inheritance;
+			productReference = F2828CF21F43F98C00E1C0B7 /* Inheritance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F22B28EE1F413F0600DDBEC7 /* Project object */ = {
+		F2828CEA1F43F98C00E1C0B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = huangxiong;
 				TargetAttributes = {
-					F22B28F51F413F0600DDBEC7 = {
+					F2828CF11F43F98C00E1C0B7 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6EW99E5PRN;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F22B28F11F413F0600DDBEC7 /* Build configuration list for PBXProject "Subscripts" */;
+			buildConfigurationList = F2828CED1F43F98C00E1C0B7 /* Build configuration list for PBXProject "Inheritance" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F22B28ED1F413F0600DDBEC7;
-			productRefGroup = F22B28F71F413F0600DDBEC7 /* Products */;
+			mainGroup = F2828CE91F43F98C00E1C0B7;
+			productRefGroup = F2828CF31F43F98C00E1C0B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F22B28F51F413F0600DDBEC7 /* Subscripts */,
+				F2828CF11F43F98C00E1C0B7 /* Inheritance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F22B28F21F413F0600DDBEC7 /* Sources */ = {
+		F2828CEE1F43F98C00E1C0B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22B28FA1F413F0600DDBEC7 /* main.swift in Sources */,
-				F24CD3B11F42C6ED008D65A6 /* TimesTable.swift in Sources */,
-				F2828CE81F43E53100E1C0B7 /* Matrix.swift in Sources */,
+				F2828CF61F43F98C00E1C0B7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F22B28FB1F413F0600DDBEC7 /* Debug */ = {
+		F2828CF71F43F98C00E1C0B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		F22B28FC1F413F0600DDBEC7 /* Release */ = {
+		F2828CF81F43F98C00E1C0B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +218,7 @@
 			};
 			name = Release;
 		};
-		F22B28FE1F413F0600DDBEC7 /* Debug */ = {
+		F2828CFA1F43F98C00E1C0B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
@@ -235,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		F22B28FF1F413F0600DDBEC7 /* Release */ = {
+		F2828CFB1F43F98C00E1C0B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
@@ -247,25 +239,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F22B28F11F413F0600DDBEC7 /* Build configuration list for PBXProject "Subscripts" */ = {
+		F2828CED1F43F98C00E1C0B7 /* Build configuration list for PBXProject "Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F22B28FB1F413F0600DDBEC7 /* Debug */,
-				F22B28FC1F413F0600DDBEC7 /* Release */,
+				F2828CF71F43F98C00E1C0B7 /* Debug */,
+				F2828CF81F43F98C00E1C0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F22B28FD1F413F0600DDBEC7 /* Build configuration list for PBXNativeTarget "Subscripts" */ = {
+		F2828CF91F43F98C00E1C0B7 /* Build configuration list for PBXNativeTarget "Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F22B28FE1F413F0600DDBEC7 /* Debug */,
-				F22B28FF1F413F0600DDBEC7 /* Release */,
+				F2828CFA1F43F98C00E1C0B7 /* Debug */,
+				F2828CFB1F43F98C00E1C0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F22B28EE1F413F0600DDBEC7 /* Project object */;
+	rootObject = F2828CEA1F43F98C00E1C0B7 /* Project object */;
 }

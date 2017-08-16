@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Inheritance/Inheritance.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Subscripts/Subscripts.xcodeproj">
    </FileRef>
    <FileRef
