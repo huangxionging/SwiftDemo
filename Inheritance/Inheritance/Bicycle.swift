@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Bicycle.swift
 //  Inheritance
 //
 //  Created by huangxiong on 2017/8/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let someVehicle = Vehicle()
-print("Vehicle: \(someVehicle.description)")
+class Bicycle: Vehicle {
+    var hasBasket = false
+    
+}
