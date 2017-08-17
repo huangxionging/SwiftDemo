@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2386F881F4459B600743E98 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2386F871F4459B600743E98 /* Vehicle.swift */; };
-		F2386F8A1F445BC900743E98 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2386F891F445BC900743E98 /* Bicycle.swift */; };
-		F2828CF61F43F98C00E1C0B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2828CF51F43F98C00E1C0B7 /* main.swift */; };
-		F2F6D51F1F4527C200D19E84 /* Tandem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D51E1F4527C200D19E84 /* Tandem.swift */; };
+		F2F6D52D1F45353000D19E84 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D52C1F45353000D19E84 /* main.swift */; };
+		F2F6D5341F4545CA00D19E84 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D5331F4545CA00D19E84 /* Train.swift */; };
+		F2F6D5361F45482600D19E84 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D5351F45482600D19E84 /* Vehicle.swift */; };
+		F2F6D5381F45777400D19E84 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D5371F45777400D19E84 /* Car.swift */; };
+		F2F6D53A1F4593A600D19E84 /* AutomaticCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6D5391F4593A600D19E84 /* AutomaticCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F2828CF01F43F98C00E1C0B7 /* CopyFiles */ = {
+		F2F6D5271F45352F00D19E84 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,15 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F2386F871F4459B600743E98 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		F2386F891F445BC900743E98 /* Bicycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
-		F2828CF21F43F98C00E1C0B7 /* Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2828CF51F43F98C00E1C0B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F2F6D51E1F4527C200D19E84 /* Tandem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tandem.swift; sourceTree = "<group>"; };
+		F2F6D5291F45352F00D19E84 /* Overriding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Overriding; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F6D52C1F45353000D19E84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F2F6D5331F4545CA00D19E84 /* Train.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		F2F6D5351F45482600D19E84 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F2F6D5371F45777400D19E84 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F2F6D5391F4593A600D19E84 /* AutomaticCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F2828CEF1F43F98C00E1C0B7 /* Frameworks */ = {
+		F2F6D5261F45352F00D19E84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,103 +46,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2828CE91F43F98C00E1C0B7 = {
+		F2F6D5201F45352F00D19E84 = {
 			isa = PBXGroup;
 			children = (
-				F2828CF41F43F98C00E1C0B7 /* Inheritance */,
-				F2828CF31F43F98C00E1C0B7 /* Products */,
+				F2F6D52B1F45352F00D19E84 /* Overriding */,
+				F2F6D52A1F45352F00D19E84 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F2828CF31F43F98C00E1C0B7 /* Products */ = {
+		F2F6D52A1F45352F00D19E84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2828CF21F43F98C00E1C0B7 /* Inheritance */,
+				F2F6D5291F45352F00D19E84 /* Overriding */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2828CF41F43F98C00E1C0B7 /* Inheritance */ = {
+		F2F6D52B1F45352F00D19E84 /* Overriding */ = {
 			isa = PBXGroup;
 			children = (
-				F2828CF51F43F98C00E1C0B7 /* main.swift */,
-				F2386F871F4459B600743E98 /* Vehicle.swift */,
-				F2386F891F445BC900743E98 /* Bicycle.swift */,
-				F2F6D51E1F4527C200D19E84 /* Tandem.swift */,
+				F2F6D52C1F45353000D19E84 /* main.swift */,
+				F2F6D5351F45482600D19E84 /* Vehicle.swift */,
+				F2F6D5331F4545CA00D19E84 /* Train.swift */,
+				F2F6D5371F45777400D19E84 /* Car.swift */,
+				F2F6D5391F4593A600D19E84 /* AutomaticCar.swift */,
 			);
-			path = Inheritance;
+			path = Overriding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2828CF11F43F98C00E1C0B7 /* Inheritance */ = {
+		F2F6D5281F45352F00D19E84 /* Overriding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2828CF91F43F98C00E1C0B7 /* Build configuration list for PBXNativeTarget "Inheritance" */;
+			buildConfigurationList = F2F6D5301F45353000D19E84 /* Build configuration list for PBXNativeTarget "Overriding" */;
 			buildPhases = (
-				F2828CEE1F43F98C00E1C0B7 /* Sources */,
-				F2828CEF1F43F98C00E1C0B7 /* Frameworks */,
-				F2828CF01F43F98C00E1C0B7 /* CopyFiles */,
+				F2F6D5251F45352F00D19E84 /* Sources */,
+				F2F6D5261F45352F00D19E84 /* Frameworks */,
+				F2F6D5271F45352F00D19E84 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Inheritance;
-			productName = Inheritance;
-			productReference = F2828CF21F43F98C00E1C0B7 /* Inheritance */;
+			name = Overriding;
+			productName = Overriding;
+			productReference = F2F6D5291F45352F00D19E84 /* Overriding */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2828CEA1F43F98C00E1C0B7 /* Project object */ = {
+		F2F6D5211F45352F00D19E84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = huangxiong;
 				TargetAttributes = {
-					F2828CF11F43F98C00E1C0B7 = {
+					F2F6D5281F45352F00D19E84 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6EW99E5PRN;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F2828CED1F43F98C00E1C0B7 /* Build configuration list for PBXProject "Inheritance" */;
+			buildConfigurationList = F2F6D5241F45352F00D19E84 /* Build configuration list for PBXProject "Overriding" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F2828CE91F43F98C00E1C0B7;
-			productRefGroup = F2828CF31F43F98C00E1C0B7 /* Products */;
+			mainGroup = F2F6D5201F45352F00D19E84;
+			productRefGroup = F2F6D52A1F45352F00D19E84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2828CF11F43F98C00E1C0B7 /* Inheritance */,
+				F2F6D5281F45352F00D19E84 /* Overriding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F2828CEE1F43F98C00E1C0B7 /* Sources */ = {
+		F2F6D5251F45352F00D19E84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F6D51F1F4527C200D19E84 /* Tandem.swift in Sources */,
-				F2386F8A1F445BC900743E98 /* Bicycle.swift in Sources */,
-				F2386F881F4459B600743E98 /* Vehicle.swift in Sources */,
-				F2828CF61F43F98C00E1C0B7 /* main.swift in Sources */,
+				F2F6D5361F45482600D19E84 /* Vehicle.swift in Sources */,
+				F2F6D5341F4545CA00D19E84 /* Train.swift in Sources */,
+				F2F6D5381F45777400D19E84 /* Car.swift in Sources */,
+				F2F6D53A1F4593A600D19E84 /* AutomaticCar.swift in Sources */,
+				F2F6D52D1F45353000D19E84 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F2828CF71F43F98C00E1C0B7 /* Debug */ = {
+		F2F6D52E1F45353000D19E84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +193,7 @@
 			};
 			name = Debug;
 		};
-		F2828CF81F43F98C00E1C0B7 /* Release */ = {
+		F2F6D52F1F45353000D19E84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Release;
 		};
-		F2828CFA1F43F98C00E1C0B7 /* Debug */ = {
+		F2F6D5311F45353000D19E84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
@@ -239,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		F2828CFB1F43F98C00E1C0B7 /* Release */ = {
+		F2F6D5321F45353000D19E84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6EW99E5PRN;
@@ -251,25 +255,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2828CED1F43F98C00E1C0B7 /* Build configuration list for PBXProject "Inheritance" */ = {
+		F2F6D5241F45352F00D19E84 /* Build configuration list for PBXProject "Overriding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2828CF71F43F98C00E1C0B7 /* Debug */,
-				F2828CF81F43F98C00E1C0B7 /* Release */,
+				F2F6D52E1F45353000D19E84 /* Debug */,
+				F2F6D52F1F45353000D19E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2828CF91F43F98C00E1C0B7 /* Build configuration list for PBXNativeTarget "Inheritance" */ = {
+		F2F6D5301F45353000D19E84 /* Build configuration list for PBXNativeTarget "Overriding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2828CFA1F43F98C00E1C0B7 /* Debug */,
-				F2828CFB1F43F98C00E1C0B7 /* Release */,
+				F2F6D5311F45353000D19E84 /* Debug */,
+				F2F6D5321F45353000D19E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2828CEA1F43F98C00E1C0B7 /* Project object */;
+	rootObject = F2F6D5211F45352F00D19E84 /* Project object */;
 }
