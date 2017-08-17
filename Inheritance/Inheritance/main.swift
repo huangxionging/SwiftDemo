@@ -15,6 +15,7 @@ print("Vehicle: \(someVehicle.description)")
 
 let bicycle = Bicycle()
 bicycle.hasBasket = true
+<<<<<<< Updated upstream
 bicycle.currentSpeed = 15.0
 print("bicycle: \(bicycle.description)")
 
@@ -23,4 +24,9 @@ tandem.hasBasket = true
 tandem.currentNumberOfPassengers = 2
 tandem.currentSpeed = 22.0
 print("Tandem: \(tandem.description)")
+=======
+bicycle.currentSpeed = 5.0
+print("Vehicle: \(someVehicle.description)")
+
+>>>>>>> Stashed changes
 

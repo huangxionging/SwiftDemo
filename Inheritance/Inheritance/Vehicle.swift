@@ -11,6 +11,8 @@ import Foundation
 /// Base Class
 class Vehicle {
     var currentSpeed = 0.0
+    
+    /// 描述
     var description: String {
         return "traveling at \(currentSpeed) miles per hour"
     }

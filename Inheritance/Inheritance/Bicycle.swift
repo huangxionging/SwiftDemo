@@ -8,6 +8,8 @@
 
 import Foundation
 
+//
+/// 继承自 Vehicle
 class Bicycle: Vehicle {
     var hasBasket = false
     
