@@ -23,3 +23,8 @@ car.gear = 3
 
 print("Car: \(car.description)")
 
+let automatic = AutomaticCar()
+automatic.currentSpeed = 35
+
+print("AutomaticCar: \(automatic.description)")
+

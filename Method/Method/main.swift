@@ -55,3 +55,8 @@ if player.tracker.advance(to: 6) {
 } else {
     print("level 6 has not yet been unlocked")
 }
+
+let cheeseQuestion = SurveyQuestion(text: "Do you like cheese?")
+cheeseQuestion.ask()
+cheeseQuestion.response = "yes I do"
+print(cheeseQuestion.response as Any)
