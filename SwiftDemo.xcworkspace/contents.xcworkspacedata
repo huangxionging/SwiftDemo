@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Initializers/Initializers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Overriding/Overriding.xcodeproj">
    </FileRef>
    <FileRef
