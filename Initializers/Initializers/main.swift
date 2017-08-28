@@ -13,4 +13,7 @@ print("Hello, World!")
 let bicycle = Bicycle()
 print("Bicycle:\(bicycle.description)")
 
+let nameMeat = Food(name: "Bacon")
+
+
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F233613D1F4E9CD10076EBA4 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233613C1F4E9CD10076EBA4 /* Food.swift */; };
+		F233613F1F4EA3C50076EBA4 /* RecipeIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */; };
 		F28FB61E1F4C301D00EDE753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB61D1F4C301D00EDE753 /* main.swift */; };
 		F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6241F4C304600EDE753 /* Vehicle.swift */; };
 		F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6261F4C363C00EDE753 /* Bicycle.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F233613C1F4E9CD10076EBA4 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeIngredient.swift; sourceTree = "<group>"; };
 		F28FB61A1F4C301D00EDE753 /* Initializers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Initializers; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28FB61D1F4C301D00EDE753 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F28FB6241F4C304600EDE753 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				F28FB61D1F4C301D00EDE753 /* main.swift */,
 				F28FB6241F4C304600EDE753 /* Vehicle.swift */,
 				F28FB6261F4C363C00EDE753 /* Bicycle.swift */,
+				F233613C1F4E9CD10076EBA4 /* Food.swift */,
+				F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -128,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */,
+				F233613D1F4E9CD10076EBA4 /* Food.swift in Sources */,
+				F233613F1F4EA3C50076EBA4 /* RecipeIngredient.swift in Sources */,
 				F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */,
 				F28FB61E1F4C301D00EDE753 /* main.swift in Sources */,
 			);
@@ -263,6 +271,7 @@
 				F28FB6231F4C301D00EDE753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
