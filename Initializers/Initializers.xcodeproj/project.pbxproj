@@ -12,6 +12,9 @@
 		F28FB61E1F4C301D00EDE753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB61D1F4C301D00EDE753 /* main.swift */; };
 		F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6241F4C304600EDE753 /* Vehicle.swift */; };
 		F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6261F4C363C00EDE753 /* Bicycle.swift */; };
+		F2E36E711F53C5C0006B1D20 /* ShoppingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E36E701F53C5C0006B1D20 /* ShoppingListItem.swift */; };
+		F2EA7FDA1F554075001A3AC9 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA7FD91F554075001A3AC9 /* Animal.swift */; };
+		F2EA7FDC1F554A3E001A3AC9 /* TemperatureUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA7FDB1F554A3E001A3AC9 /* TemperatureUnit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,9 @@
 		F28FB61D1F4C301D00EDE753 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F28FB6241F4C304600EDE753 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		F28FB6261F4C363C00EDE753 /* Bicycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
+		F2E36E701F53C5C0006B1D20 /* ShoppingListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListItem.swift; sourceTree = "<group>"; };
+		F2EA7FD91F554075001A3AC9 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F2EA7FDB1F554A3E001A3AC9 /* TemperatureUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureUnit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				F28FB6261F4C363C00EDE753 /* Bicycle.swift */,
 				F233613C1F4E9CD10076EBA4 /* Food.swift */,
 				F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */,
+				F2E36E701F53C5C0006B1D20 /* ShoppingListItem.swift */,
+				F2EA7FD91F554075001A3AC9 /* Animal.swift */,
+				F2EA7FDB1F554A3E001A3AC9 /* TemperatureUnit.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -133,10 +142,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EA7FDC1F554A3E001A3AC9 /* TemperatureUnit.swift in Sources */,
 				F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */,
 				F233613D1F4E9CD10076EBA4 /* Food.swift in Sources */,
 				F233613F1F4EA3C50076EBA4 /* RecipeIngredient.swift in Sources */,
 				F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */,
+				F2EA7FDA1F554075001A3AC9 /* Animal.swift in Sources */,
+				F2E36E711F53C5C0006B1D20 /* ShoppingListItem.swift in Sources */,
 				F28FB61E1F4C301D00EDE753 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
