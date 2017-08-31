@@ -59,3 +59,21 @@ let anonymousCreature = Animal(species: "")
 if anonymousCreature == nil {
     print("The anonymous creature could not be initalized")
 }
+
+let fahrenheit = TemperatureUnit(symbol: "F")
+
+if fahrenheit != nil {
+    print("This is a defined temperature unit, so initialization succeeded.")
+}
+
+
+let unknownUnit = TemperatureUnit(symbol: "X")
+if unknownUnit == nil {
+    print("This is not a defined temperature unit, so initalization failed.")
+}
+
+if let twoSocks = CartItem(name: "sock", quantity: 2) {
+    print("Item: \(twoSocks.name), quantity: \(twoSocks.quantity)")
+}
+
+
