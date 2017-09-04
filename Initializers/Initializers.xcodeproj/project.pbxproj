@@ -10,6 +10,10 @@
 		F233613D1F4E9CD10076EBA4 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233613C1F4E9CD10076EBA4 /* Food.swift */; };
 		F233613F1F4EA3C50076EBA4 /* RecipeIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */; };
 		F245ACFD1F5953F4003516DC /* UntitiledDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245ACFC1F5953F4003516DC /* UntitiledDocument.swift */; };
+		F28E84171F5D3B6600E64449 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E84161F5D3B6600E64449 /* SomeClass.swift */; };
+		F28E84191F5D3B9D00E64449 /* SomeSubClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E84181F5D3B9D00E64449 /* SomeSubClass.swift */; };
+		F28E841B1F5D4E3C00E64449 /* SomeClosureClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E841A1F5D4E3C00E64449 /* SomeClosureClass.swift */; };
+		F28E841D1F5D58AE00E64449 /* Chessboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E841C1F5D58AE00E64449 /* Chessboard.swift */; };
 		F28FB61E1F4C301D00EDE753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB61D1F4C301D00EDE753 /* main.swift */; };
 		F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6241F4C304600EDE753 /* Vehicle.swift */; };
 		F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB6261F4C363C00EDE753 /* Bicycle.swift */; };
@@ -38,6 +42,10 @@
 		F233613C1F4E9CD10076EBA4 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		F233613E1F4EA3C50076EBA4 /* RecipeIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeIngredient.swift; sourceTree = "<group>"; };
 		F245ACFC1F5953F4003516DC /* UntitiledDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntitiledDocument.swift; sourceTree = "<group>"; };
+		F28E84161F5D3B6600E64449 /* SomeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
+		F28E84181F5D3B9D00E64449 /* SomeSubClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeSubClass.swift; sourceTree = "<group>"; };
+		F28E841A1F5D4E3C00E64449 /* SomeClosureClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeClosureClass.swift; sourceTree = "<group>"; };
+		F28E841C1F5D58AE00E64449 /* Chessboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chessboard.swift; sourceTree = "<group>"; };
 		F28FB61A1F4C301D00EDE753 /* Initializers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Initializers; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28FB61D1F4C301D00EDE753 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F28FB6241F4C304600EDE753 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -94,6 +102,10 @@
 				F2C2A3841F58216F00765D15 /* Document.swift */,
 				F2C2A3861F5821EA00765D15 /* AutomaticallyNamedDocument.swift */,
 				F245ACFC1F5953F4003516DC /* UntitiledDocument.swift */,
+				F28E84161F5D3B6600E64449 /* SomeClass.swift */,
+				F28E84181F5D3B9D00E64449 /* SomeSubClass.swift */,
+				F28E841A1F5D4E3C00E64449 /* SomeClosureClass.swift */,
+				F28E841C1F5D58AE00E64449 /* Chessboard.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -159,12 +171,16 @@
 			files = (
 				F2EA7FDC1F554A3E001A3AC9 /* TemperatureUnit.swift in Sources */,
 				F28FB6271F4C363C00EDE753 /* Bicycle.swift in Sources */,
+				F28E84171F5D3B6600E64449 /* SomeClass.swift in Sources */,
 				F2C2A3811F58059D00765D15 /* Product.swift in Sources */,
 				F233613D1F4E9CD10076EBA4 /* Food.swift in Sources */,
+				F28E841D1F5D58AE00E64449 /* Chessboard.swift in Sources */,
 				F2C2A3871F5821EA00765D15 /* AutomaticallyNamedDocument.swift in Sources */,
 				F2C2A3851F58216F00765D15 /* Document.swift in Sources */,
 				F233613F1F4EA3C50076EBA4 /* RecipeIngredient.swift in Sources */,
+				F28E841B1F5D4E3C00E64449 /* SomeClosureClass.swift in Sources */,
 				F245ACFD1F5953F4003516DC /* UntitiledDocument.swift in Sources */,
+				F28E84191F5D3B9D00E64449 /* SomeSubClass.swift in Sources */,
 				F28FB6251F4C304600EDE753 /* Vehicle.swift in Sources */,
 				F2EA7FDA1F554075001A3AC9 /* Animal.swift in Sources */,
 				F2E36E711F53C5C0006B1D20 /* ShoppingListItem.swift in Sources */,
