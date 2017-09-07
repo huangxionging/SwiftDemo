@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ARC_Demo/ARC_Demo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Deinitialization/Deinitialization.xcodeproj">
    </FileRef>
    <FileRef
