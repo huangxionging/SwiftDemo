@@ -13,7 +13,9 @@ class Apartment {
     init(unit: String) {
         self.unit = unit
     }
-    var tenant: Person?
+    
+    /// weak 解除循环引用
+    weak var tenant: Person?
     deinit {
         print("Apartment \(unit) is being deinitialized")
     }
