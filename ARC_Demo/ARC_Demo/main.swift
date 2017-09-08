@@ -39,3 +39,11 @@ unit4A!.tenant = john
 
 john = nil
 unit4A = nil
+
+
+var john1: Customer?
+
+
+
+
+

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F251DA1C1F62909F0069D727 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251DA1B1F62909F0069D727 /* Customer.swift */; };
+		F251DA1E1F6291010069D727 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251DA1D1F6291010069D727 /* CreditCard.swift */; };
 		F2B4F7EA1F611953000B1445 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4F7E91F611953000B1445 /* main.swift */; };
 		F2B4F7F11F61196D000B1445 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4F7F01F61196D000B1445 /* Person.swift */; };
 		F2B4F7F31F614216000B1445 /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4F7F21F614216000B1445 /* Apartment.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F251DA1B1F62909F0069D727 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F251DA1D1F6291010069D727 /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		F2B4F7E61F611953000B1445 /* ARC_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ARC_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B4F7E91F611953000B1445 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F2B4F7F01F61196D000B1445 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				F2B4F7E91F611953000B1445 /* main.swift */,
 				F2B4F7F01F61196D000B1445 /* Person.swift */,
 				F2B4F7F21F614216000B1445 /* Apartment.swift */,
+				F251DA1B1F62909F0069D727 /* Customer.swift */,
+				F251DA1D1F6291010069D727 /* CreditCard.swift */,
 			);
 			path = ARC_Demo;
 			sourceTree = "<group>";
@@ -128,8 +134,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B4F7F11F61196D000B1445 /* Person.swift in Sources */,
+				F251DA1E1F6291010069D727 /* CreditCard.swift in Sources */,
 				F2B4F7EA1F611953000B1445 /* main.swift in Sources */,
 				F2B4F7F31F614216000B1445 /* Apartment.swift in Sources */,
+				F251DA1C1F62909F0069D727 /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				F2B4F7EF1F611953000B1445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
