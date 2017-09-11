@@ -43,7 +43,11 @@ unit4A = nil
 
 var john1: Customer?
 
+john1 = Customer(name: "John Appleseed")
+
+john1!.card = CreditCard(number: 1234_5678_9012_3456, customer: john1!)
 
 
+john1 = nil
 
 

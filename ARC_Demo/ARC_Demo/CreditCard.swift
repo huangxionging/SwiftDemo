@@ -11,7 +11,7 @@ import Foundation
 class CreditCard {
     let number: UInt64
     
-    let customer: Customer
+    unowned let customer: Customer
     
     init(number: UInt64, customer: Customer) {
         self.number = number

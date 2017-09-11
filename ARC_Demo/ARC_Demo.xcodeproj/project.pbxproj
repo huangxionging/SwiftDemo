@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24039DB1F66A16B001F5C1D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24039DA1F66A16B001F5C1D /* Country.swift */; };
+		F24039DD1F66A1A2001F5C1D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24039DC1F66A1A2001F5C1D /* City.swift */; };
 		F251DA1C1F62909F0069D727 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251DA1B1F62909F0069D727 /* Customer.swift */; };
 		F251DA1E1F6291010069D727 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251DA1D1F6291010069D727 /* CreditCard.swift */; };
 		F2B4F7EA1F611953000B1445 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4F7E91F611953000B1445 /* main.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F24039DA1F66A16B001F5C1D /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F24039DC1F66A1A2001F5C1D /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		F251DA1B1F62909F0069D727 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		F251DA1D1F6291010069D727 /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		F2B4F7E61F611953000B1445 /* ARC_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ARC_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,8 @@
 				F2B4F7F21F614216000B1445 /* Apartment.swift */,
 				F251DA1B1F62909F0069D727 /* Customer.swift */,
 				F251DA1D1F6291010069D727 /* CreditCard.swift */,
+				F24039DA1F66A16B001F5C1D /* Country.swift */,
+				F24039DC1F66A1A2001F5C1D /* City.swift */,
 			);
 			path = ARC_Demo;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 				F251DA1E1F6291010069D727 /* CreditCard.swift in Sources */,
 				F2B4F7EA1F611953000B1445 /* main.swift in Sources */,
 				F2B4F7F31F614216000B1445 /* Apartment.swift in Sources */,
+				F24039DB1F66A16B001F5C1D /* Country.swift in Sources */,
 				F251DA1C1F62909F0069D727 /* Customer.swift in Sources */,
+				F24039DD1F66A1A2001F5C1D /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
