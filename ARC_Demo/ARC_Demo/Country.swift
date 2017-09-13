@@ -14,6 +14,7 @@ class Country {
     
     init(name: String, capitalName: String) {
         self.name = name
+        // 完全初始化之前是不能使用 self 当参数的
         self.capitalCity = City(name: capitalName, country: self)
     }
     
