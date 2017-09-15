@@ -56,4 +56,12 @@ var country = Country(name: "Canada", capitalName: "Ottawa")
 print("\(country.name)'s capital city is called \(country.capitalCity.country.capitalCity.name)")
 
 
+let heading = HTMLElement(name: "好")
+
+let <#name#> = <#value#>
+
+
+print(heading.asHTML())
+
+
 
